@@ -175,7 +175,7 @@ button:focus{
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-link{
-	color: #010101;
+	color: #FCCCC4;
 	font-size: 18px;
 	padding: 0px 20px;
 	border-radius: 4px;
@@ -378,7 +378,7 @@ button:focus{
 	margin-bottom: 50px;
 }
 .heading-title h2{
-	color: #010101;
+	color: #ffffff;
 	font-size: 28px;
 	font-family: 'Arbutus Slab', serif;
 }
@@ -409,7 +409,7 @@ button:focus{
 }
 
 .filter-button-group button.active {
-    background: #cfa671;
+    background: #fcccc4;
     color: #fff;
     box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);
 }
@@ -431,7 +431,7 @@ button:focus{
     bottom: -100%;
     right: 0;
     height: 100%;
-    background: rgba(207, 166, 113, 0.9);
+    background: #fcccc4;
     padding: 12px 12px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
