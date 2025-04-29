@@ -19,9 +19,9 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #666666;
+    color: #ffffff;
     background-color: #000000;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Athiti', sans-serif;
     line-height: 1.80857;
 }
@@ -319,7 +319,7 @@ button:focus{
 .inner-column h1{
 	font-family: 'Arbutus Slab', serif;
 	font-size: 30px;
-	color: #010101;
+	color: #ffffff;
 }
 .inner-column h1 span{
 	color: #d0a772;
@@ -358,6 +358,16 @@ button:focus{
     color: #fff;
 	font-family: 'Arbutus Slab', serif;
 	margin-bottom: 20px;
+}
+
+/* Псевдоэлемент с фоном и размытием */
+.qt-background::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
 }
 
 .qt-background span {
