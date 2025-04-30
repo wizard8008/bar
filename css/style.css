@@ -186,7 +186,7 @@ button:focus{
 	color: #ffffff;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
-	background: #EF0000;
+	background: #ef0000;
 	color: #ffffff;
 	border-radius: 4px;
 }
@@ -212,7 +212,7 @@ button:focus{
 	height: 100vh;
 }
 .slides-navigation a {
-	background: #950000;
+	background: #950000a7;
     position: absolute;
     height: 70px;
     width: 70px;
@@ -734,7 +734,7 @@ button:focus{
 	position: relative;
 	display: block;
 	background-color: #010101;
-	border-top: 1px dashed rgb(207, 113, 113);
+	border-top: 1px dashed #cf7070;
 	padding: 30px 0;
 	z-index: 1;
 }
