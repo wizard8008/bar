@@ -26,6 +26,10 @@ body {
     line-height: 1.80857;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 
 a {
     color: #1f1f1f;
@@ -50,7 +54,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #1f1f1f;
+    color: #cf7070;
     margin: 0
 }
 
